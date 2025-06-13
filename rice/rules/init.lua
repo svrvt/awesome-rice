@@ -19,6 +19,8 @@ ruled.client.connect_signal("request::rules", function()
     ruled.client.append_rules(require("rice.rules.apps.spotify"))
     ruled.client.append_rules(require("rice.rules.apps.xephyr"))
     ruled.client.append_rules(require("rice.rules.apps.xev"))
+    ruled.client.append_rules(require("rice.rules.apps.copyq"))
+    ruled.client.append_rules(require("rice.rules.apps.amnezia-vpn"))
 end)
 
 return rules

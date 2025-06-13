@@ -25,7 +25,7 @@ local wallpaper_service = {}
 -- end
 -- awful.spawn(format("echo -e '%s' >'%s'", feh.set_script, feh_script))
 
-awful.spawn.with_shell('echo -e "#!/bin/bash \nfeh --no-fehbg --bg-fill --randomize ~/.config/awesome/theme/wallpaper/still" >~/.fehbg')
+awful.spawn.with_shell('echo -e "#!/bin/bash \nfeh --no-fehbg --bg-fill --randomize ~/mount/yandex/wallpapers/unladyes" >~/.fehbg')
 awful.spawn(feh_script)
 
 function wallpaper_service.get_collections()

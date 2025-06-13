@@ -1,7 +1,7 @@
 local core = require("core")
 
 return {
-    screenshots = core.path.home .. "/Pictures/screenshots",
+    screenshots = core.path.home .. "/pictures/screenshots",
     -- wallpapers = core.path.home .. "/media/look/wallpapers",
-    wallpapers = core.path.theme .. "/wallpaper/still",
+    wallpapers = core.path.home .. "mount/yandex/wallpapers/unladyes",
 }
